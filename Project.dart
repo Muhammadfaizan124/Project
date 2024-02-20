@@ -1,12 +1,23 @@
 import 'dart:io';
 void main(){
-  print ("Welcome to hyper technologies of vehicles.");
-  print ("Technologies that you won't find in every vehicle.");
-  print ("Please let us know about yourself then we will dive in it");
+  // var itemNo = "";
+  print ("-----Welcome to Valmart-----.");
+  print ("Make your day with us with our specteccular collections.");
    
   print ("Enter your name");
-  //string? name = stdin.readLineSync();
-
+  String? name = stdin.readLineSync();
+   print ("Thank you Mr/Miss $name here are the new stocks of the year");
+   print ("please select item from our collectons");
+   print ("1. Garments");
+   print ("2. Grocery");
+   
+   var itemNo = stdin.readLineSync();
+    if(itemNo==1){
+      print ("welcome");
+    }
+    else{
+      print ("hello there");
+    }
 
 
 }
