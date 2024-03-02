@@ -16,7 +16,9 @@ void seaFoods(){
       
       var selectPrawns = stdin.readLineSync();
       if(selectPrawns=="1"){
-        print ("done"); //to be correct.
+        print ("done");
+        
+         //to be correct.
       }
 
     }

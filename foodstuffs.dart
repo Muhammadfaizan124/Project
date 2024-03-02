@@ -16,14 +16,18 @@ void foodstuffs(){
  
         //bakery produts.
   if(selectB=="1"){
- bakeryProducts();
-  }
-       //sea foods.
+ bakeryProducts();''
+  }''
+    ''   //sea foods.
   else if(selectB=="2"){
     seaFoods();
   }
       //meat.
   else if(selectB=="3"){
     meat();
+  }
+      //crop products.
+  else if(selectB=="4"){
+
   }
 }
