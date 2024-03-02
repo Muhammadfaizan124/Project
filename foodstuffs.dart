@@ -1,4 +1,5 @@
 import 'dart:io';
+import 'Grocery.dart';
 import 'bakeryproducts.dart';
 import 'meat.dart';
 import 'seafoods.dart';
@@ -10,15 +11,16 @@ void foodstuffs(){
     print ("2. sea foods");
     print ("3. meat");
     print ("4. crop products");
+    print ("0. Go Back");
 
     //for selecting food stuffs.
     var selectB = stdin.readLineSync();
  
         //bakery produts.
   if(selectB=="1"){
- bakeryProducts();''
-  }''
-    ''   //sea foods.
+ bakeryProducts();
+  }
+       //sea foods.
   else if(selectB=="2"){
     seaFoods();
   }
@@ -29,5 +31,8 @@ void foodstuffs(){
       //crop products.
   else if(selectB=="4"){
 
+  }
+  else if(selectB=="0"){
+    grocery();
   }
 }

@@ -1,10 +1,13 @@
 import 'dart:io';
+
+import 'foodstuffs.dart';
 void meat(){
        //meat.
    print ("Available items");
     print ("1. chicken");
     print ("2. beef");
     print ("3. mutton");
+    print ("0. Go Back");
 
      //selecting meat.
    var selectMeat = stdin.readLineSync();
@@ -23,6 +26,9 @@ void meat(){
     else if(selectType=="2"){
       print ("done"); //to be correct.
     }
+    else if(selectType=="0"){
+      meat();
+    }
 
   }
              //beef
@@ -38,6 +44,9 @@ void meat(){
     else if(selectType=="2"){
       print ("done"); //to be correct.
     }
+    else if(selectType=="0"){
+      meat();
+    }
   }
           //mutton
   else if(selectMeat=="3"){
@@ -52,6 +61,12 @@ void meat(){
     else if(selectType=="2"){
       print ("done"); //to be correct.
     }
+    else if(selectType=="0"){
+      meat();
+    }
+  }
+  else if(selectMeat=="0"){
+    foodstuffs();
   }
 
 }
