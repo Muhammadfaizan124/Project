@@ -25,13 +25,13 @@ if(selectBKproduct=="1"){
     var selectBread = stdin.readLineSync();
 
     if(selectBread=="1"){
-      cart.add({'itemName':'Large Bread',"itemPrice":170,'itemQuantity':10});
+      //cart.add({'itemName':'Large Bread',"itemPrice":170,'itemQuantity':10});
     }
     else if(selectBread=="2"){
-      cart.add({'itemName':'Medium bread',"itemPrice":100,'itemQuantity':10});
+      //cart.add({'itemName':'Medium bread',"itemPrice":100,'itemQuantity':10});
     }
     else if(selectBread=="3"){
-      cart.add({'itemName':'Small Bread',"itemPrice":80,'itemQuantity':10});    
+     // cart.add({'itemName':'Small Bread',"itemPrice":80,'itemQuantity':10});    
     }
     else if(selectBread=="0"){
       bakeryProducts();
