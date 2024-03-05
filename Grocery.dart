@@ -4,11 +4,11 @@ import 'foodstuffs.dart';
 
 void grocery() {
   print("please select the desire option");
+  while (true) {
   print("1. food stuffs");
   print("2. non-food stuffs");
   print("0. Go Back");
 
-  while (true) {
     //for select catagory
     var selectA = stdin.readLineSync();
 
