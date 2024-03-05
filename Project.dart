@@ -11,13 +11,19 @@ void main() {
   String? name = stdin.readLineSync();
   print("Thank you Mr/Miss $name here are the new stocks of the year");
   print("please select item from our collectons");
-  print("1. Grocery");
-  print("2. Garments");
+  while (true) {
+    print("1. Grocery");
+    print("2. Garments");
 
-  var itemNo = stdin.readLineSync();
-  if (itemNo == "1") {
-    grocery();
-  } else {
-    print("hello there");
+    var itemNo = stdin.readLineSync();
+    if (itemNo == "1") {
+      grocery();
+      break;
+    } else if (itemNo == "2") {
+      print("Garments");
+      break;
+    } else {
+      print("Enter again");
+    }
   }
 }
